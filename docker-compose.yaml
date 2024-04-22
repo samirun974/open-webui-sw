@@ -17,9 +17,9 @@ services:
         OLLAMA_BASE_URL: '/ollama'
       dockerfile: Dockerfile
     image: ghcr.io/samirun974/open-webui-sw:${WEBUI_DOCKER_TAG-main}
-    container_name: open-webui-sw
+    container_name: open-webui
     volumes:
-      - open-webui-sw:/app/backend/data
+      - open-webui:/app/backend/data
     depends_on:
       - ollama
     ports:
@@ -33,4 +33,4 @@ services:
 
 volumes:
   ollama: {}
-  open-webui-sw: {}
+  open-webui: {}
