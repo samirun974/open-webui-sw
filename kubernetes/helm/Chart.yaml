@@ -4,7 +4,7 @@ version: 1.0.0
 appVersion: "latest"
 
 home: https://www.openwebui.com/
-icon: https://raw.githubusercontent.com/open-webui/open-webui/main/static/favicon.png
+icon: https://en.wikipedia.org/wiki/University_of_Lorraine#/media/File:University_of_Lorraine_(logo).png
 
 description: "Open WebUI: A User-Friendly Web Interface for Chat Interactions 👋"
 keywords:
@@ -13,9 +13,9 @@ keywords:
 - web-ui
 
 sources:
-- https://github.com/open-webui/open-webui/tree/main/kubernetes/helm
+- https://github.com/samirun974/open-webui-sw/tree/main/kubernetes/helm
 - https://hub.docker.com/r/ollama/ollama
-- https://github.com/open-webui/open-webui/pkgs/container/open-webui
+- https://github.com/samirun974/open-webui-sw/pkgs/container/open-webui
 
 annotations:
   licenses: MIT
