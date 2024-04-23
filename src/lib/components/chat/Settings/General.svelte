@@ -14,8 +14,8 @@
 	export let getModels: Function;
 
 	// General
-	let themes = ['dark', 'light', 'rose-pine dark', 'rose-pine-dawn light', 'oled-dark'];
-	let selectedTheme = 'system';
+	let themes = ['system','dark', 'light', 'rose-pine dark', 'rose-pine-dawn light', 'oled-dark'];
+	let selectedTheme = 'sw-theme light';
 
 	let languages = [];
 	let lang = $i18n.language;
@@ -69,7 +69,7 @@
 	};
 
 	onMount(async () => {
-		selectedTheme = localStorage.theme ?? 'system';
+		selectedTheme = localStorage.theme ?? 'sw-theme light';
 
 		let settings = JSON.parse(localStorage.getItem('settings') ?? '{}');
 		languages = await getLanguages();
@@ -143,7 +143,8 @@
 						placeholder="Select a theme"
 						on:change={() => themeChangeHandler(selectedTheme)}
 					>
-						<option value="system">⚙️ {$i18n.t('System')}</option>
+					    <option value="sw-theme light">⚙️ {$i18n.t('System')}</option>
+					    <option value="system">⚙️ {$i18n.t('System')}</option>
 						<option value="dark">🌑 {$i18n.t('Dark')}</option>
 						<option value="oled-dark">🌃 {$i18n.t('OLED Dark')}</option>
 						<option value="light">☀️ {$i18n.t('Light')}</option>
