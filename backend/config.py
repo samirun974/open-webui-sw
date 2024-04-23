@@ -71,7 +71,7 @@ except ImportError:
     log.warning("dotenv not installed, skipping...")
 
 WEBUI_NAME = os.environ.get("WEBUI_NAME", "Open WebUI")
-WEBUI_FAVICON_URL = "https://en.wikipedia.org/wiki/University_of_Lorraine#/media/File:University_of_Lorraine_(logo).png"
+WEBUI_FAVICON_URL = "https://www.agencesw.com/wp-content/uploads/2022/08/couleur-1.png"
 
 ####################################
 # ENV (dev,test,prod)

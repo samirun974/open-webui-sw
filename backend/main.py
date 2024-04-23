@@ -279,7 +279,7 @@ async def get_app_latest_release_version():
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(
-                "https://api.github.com/repos/open-webui/open-webui/releases/latest"
+                "https://api.github.com/repos/samirun974/open-webui-sw/releases/latest"
             ) as response:
                 response.raise_for_status()
                 data = await response.json()
