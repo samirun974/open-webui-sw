@@ -143,7 +143,7 @@
 						placeholder="Select a theme"
 						on:change={() => themeChangeHandler(selectedTheme)}
 					>
-					    <option value="sw-theme light">⚙️ {$i18n.t('System')}</option>
+					    <option value="sw-theme light">⚙️ {$i18n.t('sw-theme')}</option>
 					    <option value="system">⚙️ {$i18n.t('System')}</option>
 						<option value="dark">🌑 {$i18n.t('Dark')}</option>
 						<option value="oled-dark">🌃 {$i18n.t('OLED Dark')}</option>
