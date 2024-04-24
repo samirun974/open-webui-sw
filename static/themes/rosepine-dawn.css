@@ -12,11 +12,11 @@
 }
 
 .rose-pine-dawn .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
-	background: #ffffff;
+	background-color: #f3eaea;
 }
 
 .rose-pine-dawn .bg-white.dark\:bg-gray-800 {
-	background: #f3eaea;
+	background-color: #f3eaea;
 }
 
 .rose-pine-dawn .w-4.h-4 {
@@ -24,7 +24,7 @@
 }
 
 .rose-pine-dawn #chat-textarea {
-	background: #cecacd;
+	background: #ffffff;
 	margin: 0.3rem;
 	padding: 0.5rem;
 }
@@ -127,7 +127,7 @@
 }
 
 .rose-pine-dawn #chat-search > * {
-	background-color: #ffffff !important;
+	background-color: #f3eaea !important;
 }
 
 .rose-pine-dawn .svelte-1ee93ns {
