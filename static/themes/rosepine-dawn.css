@@ -4,19 +4,19 @@
 }
 
 .rose-pine-dawn .app > * {
-	background-color: #faf4ed !important;
+	background-color: #ffffff !important;
 }
 
 .rose-pine-dawn #nav {
-	background-color: #fffaf3;
+	background-color: #f3eaea;
 }
 
 .rose-pine-dawn .py-2\.5.my-auto.flex.flex-col.justify-between.h-screen {
-	background: #f2e9e1;
+	background: #ffffff;
 }
 
 .rose-pine-dawn .bg-white.dark\:bg-gray-800 {
-	background: #f2e9e1;
+	background: #f3eaea;
 }
 
 .rose-pine-dawn .w-4.h-4 {
@@ -30,13 +30,13 @@
 }
 
 .rose-pine-dawn .bg-gradient-to-t.from-white.dark\:from-gray-800.from-40\%.pb-2 {
-	background: #f2e9e1 !important;
+	background: #f3eaea !important;
 	padding-top: 0.6rem;
 }
 
 .rose-pine-dawn
 	.text-white.bg-gray-100.dark\:text-gray-800.dark\:bg-gray-600.disabled.transition.rounded-lg.p-1.mr-0\.5.w-7.h-7.self-center {
-	background-color: #cecacd;
+	background-color: #ffffff;
 	transition: background-color 0.2s ease-out linear;
 }
 
@@ -55,7 +55,7 @@
 
 .rose-pine-dawn
 	.w-full.flex.justify-between.rounded-md.px-3.py-2.hover\:bg-gray-900.bg-gray-900.transition.whitespace-nowrap.text-ellipsis {
-	background-color: #56526e;
+	background-color: #ffffff;
 	font-weight: bold;
 }
 
@@ -70,6 +70,7 @@
 
 .rose-pine-dawn .scrollbar-hidden.relative.overflow-x-auto.whitespace-nowrap.svelte-3g4avz {
 	border-radius: 16px 16px 0 0;
+        background-color: #dc0840 !important;
 }
 
 .rose-pine-dawn .base.enter.svelte-ug60r4 {
@@ -122,19 +123,19 @@
 }
 
 .rose-pine-dawn .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
-	background-color: #56949f;
+	background-color: #f3eaea;
 }
 
 .rose-pine-dawn #chat-search > * {
-	background-color: #dfdad9 !important;
+	background-color: #ffffff !important;
 }
 
 .rose-pine-dawn .svelte-1ee93ns {
-	--primary: #b4637a !important;
-	--secondary: #fffaf3 !important;
+	--primary: #dc0840 !important;
+	--secondary: #ffffff !important;
 }
 
 .rose-pine-dawn .svelte-11kvm4p {
-	--primary: #56949f !important;
-	--secondary: #fffaf3 !important;
+	--primary: #dc0840 !important;
+	--secondary: #ffffff !important;
 }
