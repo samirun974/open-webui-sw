@@ -197,7 +197,7 @@ if CUSTOM_NAME:
         pass
 else:
     if WEBUI_NAME != "Open WebUI":
-        WEBUI_NAME += " (Open WebUI)"
+        WEBUI_NAME += ""
 
 
 ####################################
