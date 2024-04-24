@@ -14,8 +14,8 @@
 	export let getModels: Function;
 
 	// General
-	let themes = ['system','dark', 'light', 'rose-pine dark', 'rose-pine-dawn light', 'oled-dark'];
-	let selectedTheme = 'sw-theme light';
+	let themes = ['sw-theme light','dark', 'light', 'rose-pine dark', 'rose-pine-dawn light', 'oled-dark'];
+	let selectedTheme = 'system';
 
 	let languages = [];
 	let lang = $i18n.language;

@@ -70,7 +70,7 @@ try:
 except ImportError:
     log.warning("dotenv not installed, skipping...")
 
-WEBUI_NAME = os.environ.get("WEBUI_NAME", "Open WebUI")
+WEBUI_NAME = os.environ.get("WEBUI_NAME", "Sw Chatbot")
 WEBUI_FAVICON_URL = "https://www.agencesw.com/wp-content/uploads/2022/10/favicon.png"
 
 ####################################
@@ -336,19 +336,19 @@ DEFAULT_PROMPT_SUGGESTIONS = (
     and type(CONFIG_DATA["ui"]["prompt_suggestions"]) is list
     else [
         {
-            "title": ["Help me study", "vocabulary for a college entrance exam"],
+            "title": ["exemple prompt 1", "à remplir"],
             "content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.",
         },
         {
-            "title": ["Give me ideas", "for what to do with my kids' art"],
+            "title": ["exemple prompt 2", "à remplir"],
             "content": "What are 5 creative things I could do with my kids' art? I don't want to throw them away, but it's also so much clutter.",
         },
         {
-            "title": ["Tell me a fun fact", "about the Roman Empire"],
+            "title": ["exemple prompt 3", "à remplir"],
             "content": "Tell me a random fun fact about the Roman Empire",
         },
         {
-            "title": ["Show me a code snippet", "of a website's sticky header"],
+            "title": ["exemple prompt 4", "à remplir"],
             "content": "Show me a code snippet of a website's sticky header in CSS and JavaScript.",
         },
     ]
