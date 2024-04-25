@@ -5,6 +5,7 @@
 
 .rose-pine-dawn .app > * {
 	background-color: #ffffff !important;
+        border-radius : 20px
 }
 
 .rose-pine-dawn #nav {
@@ -123,6 +124,10 @@
 }
 
 .rose-pine-dawn .px-4.py-2.bg-emerald-600.hover\:bg-emerald-700.text-gray-100.transition.rounded {
+	background-color: #f3eaea;
+}
+
+.rose-pine-dawn .px-4.py-2.bg-emerald-700.hover\:bg-emerald-800.text-gray-100.transition.rounded {
 	background-color: #f3eaea;
 }
 
