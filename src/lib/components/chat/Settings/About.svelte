@@ -114,6 +114,13 @@
 				/>
 			</a>
 
+			<a href="https://www.agencesw.com/" target="_blank">
+				<img
+					alt=""
+					src="https://www.agencesw.com/wp-content/uploads/2022/08/couleur-1.png"
+				/>
+			</a>
+
 			<a href="https://twitter.com/OpenWebUI" target="_blank">
 				<img
 					alt="X (formerly Twitter) Follow"
@@ -132,7 +139,7 @@
 		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
 			{#if !$WEBUI_NAME.includes('Open WebUI')}
 				<span class=" text-gray-500 dark:text-gray-300 font-medium">{$WEBUI_NAME}</span> -
-			{/if}{$i18n.t('Created by')}
+			{/if}{$i18n.t('Interface développé et étendu par Agence SW à partir de OpenWebUI crée par')}
 			<a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
 				href="https://github.com/tjbck"

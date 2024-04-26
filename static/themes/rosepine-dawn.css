@@ -1,10 +1,14 @@
 .rose-pine-dawn * {
-	color: #000000 !important;
+
 	stroke: #dc0840 !important;
 }
 
 .rose-pine-dawn .app > * {
 	background-color: #ffffff !important;
+        border-radius : 20px
+}
+
+.rose-pine-dawn #messages-container {
         border-radius : 20px
 }
 
