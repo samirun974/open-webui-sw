@@ -192,7 +192,7 @@
 										}
 									);
 								}
-							}}>{$i18n.t('Use Initials')}</button
+							}}>{$i18n.t('Utiliser Initials')}</button
 						>
 
 						<button
@@ -201,14 +201,14 @@
 								const url = await getGravatarUrl($user.email);
 
 								profileImageUrl = url;
-							}}>{$i18n.t('Use Gravatar')}</button
+							}}>{$i18n.t('Utiliser Gravatar')}</button
 						>
 
 						<button
 							class=" text-xs text-center text-gray-800 dark:text-gray-400 rounded-lg px-2 py-1"
 							on:click={async () => {
 								profileImageUrl = '/user.png';
-							}}>{$i18n.t('Remove')}</button
+							}}>{$i18n.t('Suprimer')}</button
 						>
 					</div>
 				</div>
@@ -447,7 +447,7 @@
 								{/if}
 							</button>
 
-							<Tooltip content="Create new key">
+							<Tooltip content="Créer une nouvelle clé">
 								<button
 									class=" px-1.5 py-1 dark:hover:bg-gray-850transition rounded-lg"
 									on:click={() => {
