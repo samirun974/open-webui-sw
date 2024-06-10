@@ -121,6 +121,13 @@
 				/>
 			</a>
 
+			<a href="https://www.basketeurope.com/" target="_blank">
+				<img
+					alt=""
+					src="https://www.basketeurope.com/content/images/size/w1304/2023/11/logo-basketeurope.png"
+				/>
+			</a>
+
 			<a href="https://twitter.com/OpenWebUI" target="_blank">
 				<img
 					alt="X (formerly Twitter) Follow"
