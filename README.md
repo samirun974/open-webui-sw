@@ -103,7 +103,7 @@ Don't forget to explore our sibling project, [Open WebUI Community](https://open
 **If Ollama is on your computer**, use this command:
 
 ```bash
-docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui-sw:/app/backend/data --name open-webui --restart always ghcr.io/samirun974/open-webui-sw:main
 ```
 
 **If Ollama is on a Different Server**, use this command:
@@ -111,7 +111,7 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 To connect to Ollama on another server, change the `OLLAMA_BASE_URL` to the server's URL:
 
 ```bash
-docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui-sw:/app/backend/data --name open-webui --restart always ghcr.io/samirun974/open-webui-sw:main
 ```
 
 After installation, you can access Open WebUI at [http://localhost:3000](http://localhost:3000). Enjoy! 😄
@@ -123,7 +123,7 @@ If you're experiencing connection issues, it’s often due to the WebUI docker c
 **Example Docker Command**:
 
 ```bash
-docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker run -d --network=host -v open-webui-sw:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/samirun974/open-webui-sw:main
 ```
 
 ### Other Installation Methods
